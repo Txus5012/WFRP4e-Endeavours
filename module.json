@@ -1,0 +1,65 @@
+{
+    "name": "wfrp4e-endeavours",
+    "title": "WFRP4e - Endeavours",
+    "description": "Macro to select endeavours (between adventures and travel).",
+  "authors": [
+    {
+      "name": "Txus",
+      "url": "https://ko-fi.com/txus5012",
+      "flags": {}
+    }
+  ],
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10"
+    },
+    "esmodules": [
+        "scripts/init.js",
+        "scripts/scripts.js"
+    ],
+  "packs": [
+        {
+      "name": "wfrp4eendeavoursitems",
+      "label": "WFRP4e Endeavours Items",
+      "system": "wfrp4e",
+      "path": "packs/wfrp4e-endeavours-items.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "wfrp4eendeavoursmacro",
+      "label": "WFRP4e Endeavours Macro",
+      "system": "wfrp4e",
+      "path": "packs/wfrp4e-endeavours-macro.db",
+      "type": "Macro",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+    "socket": true
+}
