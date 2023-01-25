@@ -18,7 +18,7 @@ Select the token(s) that can make endeavours and execute the macro. They will be
 
 - **None**: The character won't do any endeavour.
 
-A chat card will appear with the desired endeavour. If chosen a "Between adventures" endeavour, it will show a jpurnal link. Not available yet for "Travel" endeavours.
+A chat card will appear with the desired endeavour. If chosen a "Between adventures" endeavour, it will show a journal link. Not available yet for "Travel" endeavours.
 
 ![Endeavours Card](https://user-images.githubusercontent.com/87753744/214649375-bfff0e86-040f-4e75-ac9b-2ed6e7a24ace.jpg)
 
