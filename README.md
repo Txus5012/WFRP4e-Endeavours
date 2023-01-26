@@ -8,7 +8,7 @@ Available in English and Spanish.
 ## Instructions
 Activate the module and import the macro into your world. You don't have to import the items.
 
-Select the token(s) that can make endeavours and execute the macro. They will be prompted to select endeavours:
+Select the token(s) that can make endeavours and execute the macro. The player(s) will be prompted to select an endeavour:
 
 ![Endeavours Dialog](https://user-images.githubusercontent.com/87753744/214647333-541fbd6a-45e0-4bed-bea3-7ab9f44e2f9f.jpg)
 
