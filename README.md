@@ -5,6 +5,12 @@ Based in the module [PF2e Exploration Activities](https://github.com/IcyLemonZ/p
 
 Available in English and Spanish.
 
+## Installation
+Copy the following link and paste it in Install Module => Manifest URL
+
+https://github.com/Txus5012/WFRP4e-Endeavours/releases/latest/download/module.json
+![Installation](https://user-images.githubusercontent.com/87753744/217327313-8a8f35db-e75c-4780-99dc-03b85a130f7d.jpg)
+
 ## Instructions
 Activate the module and import the macro into your world. You don't have to import the items.
 
