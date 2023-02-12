@@ -25,6 +25,31 @@ export function endeavour(actor, travel) {
 			"Research Lore (Academics)": game.i18n.localize("WFRP4eEndeavours.BA.Research"),
 			"Study a Mark (Rogues)": game.i18n.localize("WFRP4eEndeavours.BA.Mark")
 		}
+		if (game.settings.get('wfrp4e-endeavours', 'altdorf')) {
+			endeavourlabel["College Research"] = game.i18n.localize("WFRP4eEndeavours.BA.College"),
+			endeavourlabel["Patronage"] = game.i18n.localize("WFRP4eEndeavours.BA.Patronage"),
+			endeavourlabel["Penance"] = game.i18n.localize("WFRP4eEndeavours.BA.Penance"),
+			endeavourlabel["Train with Unusual Weapon"] = game.i18n.localize("WFRP4eEndeavours.BA.UnusualWeapon"),
+			endeavourlabel["Test Magic Item"] = game.i18n.localize("WFRP4eEndeavours.BA.MagicItem")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
+			endeavourlabel["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.BA.Skaven")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'farforian')) {
+			endeavourlabel["Only the Best"] = game.i18n.localize("WFRP4eEndeavours.BA.Best")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'willhelm')) {
+			endeavourlabel["The Null Hypotesis"] = game.i18n.localize("WFRP4eEndeavours.BA.Hypotesis")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'angela')) {
+			endeavourlabel["Hedge School"] = game.i18n.localize("WFRP4eEndeavours.BA.Hedge")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'rosendorn')) {
+			endeavourlabel["No Use for Visionaries"] = game.i18n.localize("WFRP4eEndeavours.BA.Visionaries")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'ulricsson')) {
+			endeavourlabel["Bear Witness"] = game.i18n.localize("WFRP4eEndeavours.BA.Witness")
+				}
 	} else {
 		endeavourlabel = {
 			"Woodcraft": game.i18n.localize("WFRP4eEndeavours.Travel.Woodcraft"),
@@ -58,6 +83,31 @@ export function endeavour(actor, travel) {
 			"Research Lore": game.i18n.localize("WFRP4eEndeavours.Link.Research"),
 			"Study a Mark": game.i18n.localize("WFRP4eEndeavours.Link.Mark")
 			}
+		if (game.settings.get('wfrp4e-endeavours', 'altdorf')) {
+			endeavours["College Research"] = game.i18n.localize("WFRP4eEndeavours.Link.College"),
+			endeavours["Patronage"] = game.i18n.localize("WFRP4eEndeavours.Link.Patronage"),
+			endeavours["Penance"] = game.i18n.localize("WFRP4eEndeavours.Link.Penance"),
+			endeavours["Train with Unusual Weapon"] = game.i18n.localize("WFRP4eEndeavours.Link.UnusualWeapon"),
+			endeavours["Test Magic Item"] = game.i18n.localize("WFRP4eEndeavours.Link.MagicItem")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
+			endeavours["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.Link.Skaven")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'farforian')) {
+			endeavours["Only the Best"] = game.i18n.localize("WFRP4eEndeavours.Link.Best")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'willhelm')) {
+			endeavours["The Null Hypotesis"] = game.i18n.localize("WFRP4eEndeavours.Link.Hypotesis")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'angela')) {
+			endeavours["Hedge School"] = game.i18n.localize("WFRP4eEndeavours.Link.Hedge")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'rosendorn')) {
+			endeavours["No Use for Visionaries"] = game.i18n.localize("WFRP4eEndeavours.Link.Visionaries")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'ulricsson')) {
+			endeavours["Bear Witness"] = game.i18n.localize("WFRP4eEndeavours.Link.Witness")
+				}
    } else {
 		endeavours = {
 			"Woodcraft": game.i18n.localize("WFRP4eEndeavours.Link.Woodcraft"),

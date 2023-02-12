@@ -1,7 +1,6 @@
 {
-    "name": "wfrp4e-endeavours",
-    "title": "WFRP4e - Endeavours",
-    "description": "Macro to select endeavours (between adventures and travel).",
+  "title": "WFRP4e - Endeavours",
+  "description": "Macro to select endeavours (between adventures and travel).",
   "authors": [
     {
       "name": "Txus",
@@ -9,17 +8,17 @@
       "flags": {}
     }
   ],
-    "version": "1.0.0",
-    "compatibility": {
-      "minimum": "10",
-      "verified": "10"
-    },
-    "esmodules": [
-        "scripts/init.js",
-        "scripts/scripts.js"
-    ],
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "esmodules": [
+    "scripts/init.js",
+    "scripts/scripts.js"
+  ],
   "packs": [
-        {
+    {
       "name": "wfrp4eendeavoursitems",
       "label": "WFRP4e Endeavours Items",
       "system": "wfrp4e",
@@ -47,7 +46,7 @@
     },
     {
       "lang": "es",
-      "name": "Español",
+      "name": "EspaÃ±ol",
       "path": "lang/es.json",
       "flags": {}
     }
@@ -65,5 +64,6 @@
   "url": "https://github.com/Txus5012/WFRP4e-Endeavours",
   "readme": "https://github.com/Txus5012/WFRP4e-Endeavours#readme",
   "manifest": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/latest/download/module.json",
-  "download": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.0.0/wfrp4e-endeavours.zip"
+  "download": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.1.0/wfrp4e-endeavours.zip",
+  "id": "wfrp4e-endeavours"
 }
