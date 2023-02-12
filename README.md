@@ -33,3 +33,13 @@ Some endeavours have one or more items appearing in the chat card. The GM or the
 An extra message will show in the result card for extra flavor.
 
 ![Endeavours Result](https://user-images.githubusercontent.com/87753744/214651418-00d20e0c-5309-47bb-b6fe-835113b96780.jpg)
+
+## Extra Endeavours
+Since version 1.1.0 there is a module settings menu for GMs where they can select extra endeavours from Altdorf: Crown of the Empire and Patrons of the Old World I & II.
+
+GMs can consider this as "unlocking" these endeavours if the PCs are in Altdorf or met these patrons.
+
+## Contributions
+Only the Core Module Between Adventures endeavours have journal links included, If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire and/or Old World Bundle I, you can help me with the rest of the endeavours.
+
+Contact me in the issues tab.
