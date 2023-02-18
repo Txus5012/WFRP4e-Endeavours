@@ -24,7 +24,7 @@ Select the token(s) that can make endeavours and execute the macro. The player(s
 
 - **None**: The character won't do any endeavour.
 
-A chat card will appear with the desired endeavour. If chosen a "Between adventures" endeavour, it will show a journal link (v10 journal pages). Not available yet for "Travel" endeavours.
+A chat card will appear with the desired endeavour. If chosen a "Between adventures" endeavour from the Core module, it will show a journal link (v10 journal pages). Not available yet for "Travel" or extra endeavours.
 
 ![Endeavours Card](https://user-images.githubusercontent.com/87753744/214649375-bfff0e86-040f-4e75-ac9b-2ed6e7a24ace.jpg)
 
@@ -35,11 +35,11 @@ An extra message will show in the result card for extra flavor.
 ![Endeavours Result](https://user-images.githubusercontent.com/87753744/214651418-00d20e0c-5309-47bb-b6fe-835113b96780.jpg)
 
 ## Extra Endeavours
-Since version 1.1.0 there is a module settings menu for GMs where they can select extra endeavours from Altdorf: Crown of the Empire and Patrons of the Old World I & II.
+Since version 1.1.0 there is a module settings menu for GMs where they can select extra endeavours from Altdorf: Crown of the Empire and Patrons of the Old World I & II. They all are "Between adventures" endeavours.
 
 GMs can consider this as "unlocking" these endeavours if the PCs are in Altdorf or met these patrons.
 
 ## Contributions
-Only the Core Module Between Adventures endeavours have journal links included, If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire and/or Old World Bundle I, you can help me with the rest of the endeavours.
+Only the "Between adventures" endeavours from the Core module have journal links included, If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire and/or Old World Bundle I Foundry modules, you can help me with the rest of the journal links.
 
 Contact me in the issues tab.
