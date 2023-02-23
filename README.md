@@ -35,11 +35,15 @@ An extra message will show in the result card for extra flavor.
 ![Endeavours Result](https://user-images.githubusercontent.com/87753744/214651418-00d20e0c-5309-47bb-b6fe-835113b96780.jpg)
 
 ## Extra Endeavours
-Since version 1.1.0 there is a module settings menu for GMs where they can select extra endeavours from Altdorf: Crown of the Empire and Patrons of the Old World I & II. They all are "Between adventures" endeavours.
+- Since version 1.1.0 there is a module settings menu for GMs where they can select extra endeavours from **Altdorf: Crown of the Empire** and **Patrons of the Old World I & II**. They all are "Between adventures" endeavours.
 
 GMs can consider this as "unlocking" these endeavours if the PCs are in Altdorf or met these patrons.
 
+- Version 1.2.0 includes endeavours from **Up in Arms**, **Winds of Magic** and **Sea of Claws**. They all are optional "Between adventures" endeavours.
+
+Activating Sea of Claws endeavours will replace the "Between adventures" endeavours with the ones available at sea.
+
 ## Contributions
-Only the "Between adventures" endeavours from the Core module have journal links included, If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire and/or Old World Bundle I Foundry modules, you can help me with the rest of the journal links.
+Only the "Between adventures" endeavours from the Core module have journal links included, If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire, Up in Arms and/or Old World Bundle I Foundry modules, you can help me with the rest of the journal links.
 
 Contact me in the issues tab.
