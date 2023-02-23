@@ -32,6 +32,19 @@ export function endeavour(actor, travel) {
 			endeavourlabel["Train with Unusual Weapon"] = game.i18n.localize("WFRP4eEndeavours.BA.UnusualWeapon"),
 			endeavourlabel["Test Magic Item"] = game.i18n.localize("WFRP4eEndeavours.BA.MagicItem")
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'uia')) {
+			endeavourlabel["Alcatini Method"] = game.i18n.localize("WFRP4eEndeavours.BA.Alcatini"),
+			endeavourlabel["Count Punchausen's Narrative Auction"] = game.i18n.localize("WFRP4eEndeavours.BA.Punchausen"),
+			endeavourlabel["Fanmaris's Perfect Shot"] = game.i18n.localize("WFRP4eEndeavours.BA.Fanmaris"),
+			endeavourlabel["The Leitdorf Defence"] = game.i18n.localize("WFRP4eEndeavours.BA.Leitdorf"),
+			endeavourlabel["The Quartermaster Shuffle"] = game.i18n.localize("WFRP4eEndeavours.BA.Quartermaster")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'wom')) {
+			endeavourlabel["Brew Potion"] = game.i18n.localize("WFRP4eEndeavours.BA.Brew"),
+			endeavourlabel["Gather Ingredients"] = game.i18n.localize("WFRP4eEndeavours.BA.Ingredients"),
+			endeavourlabel["Improve Familiar"] = game.i18n.localize("WFRP4eEndeavours.BA.Familiar"),
+			endeavourlabel["Perform Ritual"] = game.i18n.localize("WFRP4eEndeavours.BA.Ritual")
+				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavourlabel["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.BA.Skaven")
 				}
@@ -50,6 +63,26 @@ export function endeavour(actor, travel) {
 		if (game.settings.get('wfrp4e-endeavours', 'ulricsson')) {
 			endeavourlabel["Bear Witness"] = game.i18n.localize("WFRP4eEndeavours.BA.Witness")
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'soc')) {
+			endeavourlabel = {
+				"Crafting": game.i18n.localize("WFRP4eEndeavours.BA.Crafting"),
+				"Invent!": game.i18n.localize("WFRP4eEndeavours.BA.Invent"),
+				"Training": game.i18n.localize("WFRP4eEndeavours.BA.Training"),
+				"Unusual Learning": game.i18n.localize("WFRP4eEndeavours.BA.Learning"),
+				"Combat Training (Rangers, Warriors)": game.i18n.localize("WFRP4eEndeavours.BA.Combat"),
+				"Fomment Dissent (Burghers, Peasants)": game.i18n.localize("WFRP4eEndeavours.BA.Dissent"),
+				"Research Lore (Academics)": game.i18n.localize("WFRP4eEndeavours.BA.Research"),
+				"Mapmaking": game.i18n.localize("WFRP4eEndeavours.BA.Mapmaking"),
+				"Opportune Trade": game.i18n.localize("WFRP4eEndeavours.BA.Trade"),
+				"Ship Maintenance": game.i18n.localize("WFRP4eEndeavours.BA.Ship"),
+				"Train Crew": game.i18n.localize("WFRP4eEndeavours.BA.Crew")
+				}
+				if (game.settings.get('wfrp4e-endeavours', 'uia')) {
+					endeavourlabel["Alcatini Method"] = game.i18n.localize("WFRP4eEndeavours.BA.Alcatini"),
+					endeavourlabel["Fanmaris's Perfect Shot"] = game.i18n.localize("WFRP4eEndeavours.BA.Fanmaris"),
+					endeavourlabel["The Leitdorf Defence"] = game.i18n.localize("WFRP4eEndeavours.BA.Leitdorf")
+					}
+		}
 	} else {
 		endeavourlabel = {
 			"Woodcraft": game.i18n.localize("WFRP4eEndeavours.Travel.Woodcraft"),
@@ -90,6 +123,19 @@ export function endeavour(actor, travel) {
 			endeavours["Train with Unusual Weapon"] = game.i18n.localize("WFRP4eEndeavours.Link.UnusualWeapon"),
 			endeavours["Test Magic Item"] = game.i18n.localize("WFRP4eEndeavours.Link.MagicItem")
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'uia')) {
+			endeavours["Alcatini Method"] = game.i18n.localize("WFRP4eEndeavours.Link.Alcatini"),
+			endeavours["Count Punchausen's Narrative Auction"] = game.i18n.localize("WFRP4eEndeavours.Link.Punchausen"),
+			endeavours["Fanmaris's Perfect Shot"] = game.i18n.localize("WFRP4eEndeavours.Link.Fanmaris"),
+			endeavours["The Leitdorf Defence"] = game.i18n.localize("WFRP4eEndeavours.Link.Leitdorf"),
+			endeavours["The Quartermaster Shuffle"] = game.i18n.localize("WFRP4eEndeavours.Link.Quartermaster")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'wom')) {
+			endeavours["Brew Potion"] = game.i18n.localize("WFRP4eEndeavours.Link.Brew"),
+			endeavours["Gather Ingredients"] = game.i18n.localize("WFRP4eEndeavours.Link.Ingredients"),
+			endeavours["Improve Familiar"] = game.i18n.localize("WFRP4eEndeavours.Link.Familiar"),
+			endeavours["Perform Ritual"] = game.i18n.localize("WFRP4eEndeavours.Link.Ritual")
+				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavours["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.Link.Skaven")
 				}
@@ -108,6 +154,26 @@ export function endeavour(actor, travel) {
 		if (game.settings.get('wfrp4e-endeavours', 'ulricsson')) {
 			endeavours["Bear Witness"] = game.i18n.localize("WFRP4eEndeavours.Link.Witness")
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'soc')) {
+			endeavours = {
+				"Crafting": game.i18n.localize("WFRP4eEndeavours.Link.Crafting"),
+				"Invent!": game.i18n.localize("WFRP4eEndeavours.Link.Invent"),
+				"Training": game.i18n.localize("WFRP4eEndeavours.Link.Training"),
+				"Unusual Learning": game.i18n.localize("WFRP4eEndeavours.Link.Learning"),
+				"Combat Training (Rangers, Warriors)": game.i18n.localize("WFRP4eEndeavours.Link.Combat"),
+				"Fomment Dissent (Burghers, Peasants)": game.i18n.localize("WFRP4eEndeavours.Link.Dissent"),
+				"Research Lore (Academics)": game.i18n.localize("WFRP4eEndeavours.Link.Research"),
+				"Mapmaking": game.i18n.localize("WFRP4eEndeavours.Link.Mapmaking"),
+				"Opportune Trade": game.i18n.localize("WFRP4eEndeavours.Link.Trade"),
+				"Ship Maintenance": game.i18n.localize("WFRP4eEndeavours.Link.Ship"),
+				"Train Crew": game.i18n.localize("WFRP4eEndeavours.Link.Crew")
+				}
+				if (game.settings.get('wfrp4e-endeavours', 'uia')) {
+					endeavours["Alcatini Method"] = game.i18n.localize("WFRP4eEndeavours.Link.Alcatini"),
+					endeavours["Fanmaris's Perfect Shot"] = game.i18n.localize("WFRP4eEndeavours.Link.Fanmaris"),
+					endeavours["The Leitdorf Defence"] = game.i18n.localize("WFRP4eEndeavours.Link.Leitdorf")
+					}
+			}
    } else {
 		endeavours = {
 			"Woodcraft": game.i18n.localize("WFRP4eEndeavours.Link.Woodcraft"),
@@ -159,8 +225,8 @@ export function endeavour(actor, travel) {
         },
           
     })
-    d.options.width = 475
-    d.position.width = 475
+    d.options.width = 500
+    d.position.width = 500
     d.render(true);
 
     // used to create the chat messages

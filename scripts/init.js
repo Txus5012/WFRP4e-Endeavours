@@ -22,6 +22,30 @@ game.settings.register('wfrp4e-endeavours', 'altdorf', {
         type: Boolean,
         default: false
     });
+game.settings.register('wfrp4e-endeavours', 'uia', {
+	name: game.i18n.localize("settings.uia.name"),
+	hint: game.i18n.localize("settings.uia.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
+game.settings.register('wfrp4e-endeavours', 'wom', {
+	name: game.i18n.localize("settings.wom.name"),
+	hint: game.i18n.localize("settings.wom.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
+game.settings.register('wfrp4e-endeavours', 'soc', {
+	name: game.i18n.localize("settings.soc.name"),
+	hint: game.i18n.localize("settings.soc.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
 game.settings.register('wfrp4e-endeavours', 'shelley', {
 	name: game.i18n.localize("settings.shelley.name"),
 	hint: game.i18n.localize("settings.shelley.hint"),
