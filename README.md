@@ -43,6 +43,10 @@ GMs can consider this as "unlocking" these endeavours if the PCs are in Altdorf 
 
 Activating Sea of Claws endeavours will replace the "Between adventures" endeavours with the ones available at sea.
 
+- Version 1.3.0 adds endeavours from **Lustria**.
+
+Activating Lustria endeavours will add "Between Adventures" endeavours and replace the "Travel" ones.
+
 ## Contributions
 Only the "Between adventures" endeavours from the Core module have journal links included, If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire, Up in Arms and/or Old World Bundle I Foundry modules, you can help me with the rest of the journal links.
 
