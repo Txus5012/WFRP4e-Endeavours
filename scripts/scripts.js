@@ -45,6 +45,16 @@ export function endeavour(actor, travel) {
 			endeavourlabel["Improve Familiar"] = game.i18n.localize("WFRP4eEndeavours.BA.Familiar"),
 			endeavourlabel["Perform Ritual"] = game.i18n.localize("WFRP4eEndeavours.BA.Ritual")
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'lustria')) {
+			endeavourlabel["Deforestation"] = game.i18n.localize("WFRP4eEndeavours.BA.Deforestation"),
+			endeavourlabel["Attuning With the Ancients"] = game.i18n.localize("WFRP4eEndeavours.BA.Ancients"),
+			endeavourlabel["Boatbuilding"] = game.i18n.localize("WFRP4eEndeavours.BA.Boatbuilding"),
+			endeavourlabel["Construction"] = game.i18n.localize("WFRP4eEndeavours.BA.Construction"),
+			endeavourlabel["Entertaining"] = game.i18n.localize("WFRP4eEndeavours.BA.Entertaining"),
+			endeavourlabel["Patrolling the Border"] = game.i18n.localize("WFRP4eEndeavours.BA.Border"),
+			endeavourlabel["Rationing"] = game.i18n.localize("WFRP4eEndeavours.BA.Rationing"),
+			endeavourlabel["Sponsoring an Expedition"] = game.i18n.localize("WFRP4eEndeavours.BA.Expedition")
+				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavourlabel["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.BA.Skaven")
 				}
@@ -82,7 +92,7 @@ export function endeavour(actor, travel) {
 					endeavourlabel["Fanmaris's Perfect Shot"] = game.i18n.localize("WFRP4eEndeavours.BA.Fanmaris"),
 					endeavourlabel["The Leitdorf Defence"] = game.i18n.localize("WFRP4eEndeavours.BA.Leitdorf")
 					}
-		}
+				}
 	} else {
 		endeavourlabel = {
 			"Woodcraft": game.i18n.localize("WFRP4eEndeavours.Travel.Woodcraft"),
@@ -94,7 +104,17 @@ export function endeavour(actor, travel) {
 			"Recuperate": game.i18n.localize("WFRP4eEndeavours.Travel.Recuperate"),
 			"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.Camp")
 		}
-		
+		if (game.settings.get('wfrp4e-endeavours', 'lustria')) {
+			endeavourlabel = {
+				"Find Shelter": game.i18n.localize("WFRP4eEndeavours.Travel.Shelter"),
+				"Forage for Food": game.i18n.localize("WFRP4eEndeavours.Travel.ForageforFood"),
+				"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Travel.Watch"),
+				"Map the Route": game.i18n.localize("WFRP4eEndeavours.Travel.Map"),
+				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.Camp"),
+				"Practice a Skill": game.i18n.localize("WFRP4eEndeavours.Travel.Practice"),
+				"Repair a Boat": game.i18n.localize("WFRP4eEndeavours.Travel.Boat")
+				}
+			}
       }
 
     if ( !travel ) {
@@ -135,6 +155,16 @@ export function endeavour(actor, travel) {
 			endeavours["Gather Ingredients"] = game.i18n.localize("WFRP4eEndeavours.Link.Ingredients"),
 			endeavours["Improve Familiar"] = game.i18n.localize("WFRP4eEndeavours.Link.Familiar"),
 			endeavours["Perform Ritual"] = game.i18n.localize("WFRP4eEndeavours.Link.Ritual")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'lustria')) {
+			endeavours["Deforestation"] = game.i18n.localize("WFRP4eEndeavours.Link.Deforestation"),
+			endeavours["Attuning With the Ancients"] = game.i18n.localize("WFRP4eEndeavours.Link.Ancients"),
+			endeavours["Boatbuilding"] = game.i18n.localize("WFRP4eEndeavours.Link.Boatbuilding"),
+			endeavours["Construction"] = game.i18n.localize("WFRP4eEndeavours.Link.Construction"),
+			endeavours["Entertaining"] = game.i18n.localize("WFRP4eEndeavours.Link.Entertaining"),
+			endeavours["Patrolling the Border"] = game.i18n.localize("WFRP4eEndeavours.Link.Border"),
+			endeavours["Rationing"] = game.i18n.localize("WFRP4eEndeavours.Link.Rationing"),
+			endeavours["Sponsoring an Expedition"] = game.i18n.localize("WFRP4eEndeavours.Link.Expedition")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavours["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.Link.Skaven")
@@ -184,6 +214,17 @@ export function endeavour(actor, travel) {
 			"Practice a Skill": game.i18n.localize("WFRP4eEndeavours.Link.Practice"),
 			"Recuperate": game.i18n.localize("WFRP4eEndeavours.Link.Recuperate"),
 			"Make Camp": game.i18n.localize("WFRP4eEndeavours.Link.Camp")
+			}
+		if (game.settings.get('wfrp4e-endeavours', 'lustria')) {
+			endeavours = {
+				"Find Shelter": game.i18n.localize("WFRP4eEndeavours.Link.Shelter"),
+				"Forage for Food": game.i18n.localize("WFRP4eEndeavours.Link.ForageforFood"),
+				"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Link.WatchLustria"),
+				"Map the Route": game.i18n.localize("WFRP4eEndeavours.Link.MapLustria"),
+				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Link.CampLustria"),
+				"Practice a Skill": game.i18n.localize("WFRP4eEndeavours.Link.PracticeLustria"),
+				"Repair a Boat": game.i18n.localize("WFRP4eEndeavours.Link.Boat")
+				}
 			}
 	}
 
