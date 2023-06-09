@@ -5,8 +5,7 @@
   "authors": [
     {
       "name": "Txus",
-      "url": "https://ko-fi.com/txus5012",
-      "flags": {}
+      "url": "https://ko-fi.com/txus5012"
     }
   ],
   "version": "1.4.0",
@@ -20,35 +19,32 @@
   ],
   "packs": [
     {
-      "name": "wfrp4eendeavoursitems",
       "label": "WFRP4e Endeavours Items",
-      "system": "wfrp4e",
-      "path": "packs/wfrp4e-endeavours-items.db",
+      "name": "wfrp4eendeavoursitems",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "system": "wfrp4e",
+      "path": "packs/wfrp4eendeavoursitems"
     },
     {
-      "name": "wfrp4eendeavoursmacro",
       "label": "WFRP4e Endeavours Macro",
-      "system": "wfrp4e",
-      "path": "packs/wfrp4e-endeavours-macro.db",
+      "name": "wfrp4eendeavoursmacro",
       "type": "Macro",
-      "private": false,
-      "flags": {}
+      "system": "wfrp4e",
+      "path": "packs/wfrp4eendeavoursmacro"
     }
   ],
   "packFolders": [
-        {
-          "name": "WFRP4e Endeavours",
-          "sorting": "a",
-          "color": "#265625",
-          "packs": [
-            "wfrp4eendeavoursitems",
-            "wfrp4eendeavoursmacro"
-          ]
-        }
+    {
+      "name": "WFRP4e Endeavours",
+      "sorting": "a",
+      "color": "#265625",
+      "packs": [
+        "wfrp4eendeavoursitems",
+        "wfrp4eendeavoursmacro"
       ],
+      "folders": []
+    }
+  ],
   "languages": [
     {
       "lang": "en",
@@ -64,11 +60,21 @@
     }
   ],
   "media": [
-        {
-            "type": "setup",
-            "url": "https://user-images.githubusercontent.com/87753744/214647333-541fbd6a-45e0-4bed-bea3-7ab9f44e2f9f.jpg"
-        }
+    {
+      "type": "setup",
+      "url": "https://user-images.githubusercontent.com/87753744/214647333-541fbd6a-45e0-4bed-bea3-7ab9f44e2f9f.jpg",
+      "loop": false,
+      "flags": {}
+    }
   ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "wfrp4e",
+        "type": "system"
+      }
+    ]
+  },
   "socket": true,
   "url": "https://github.com/Txus5012/WFRP4e-Endeavours",
   "readme": "https://github.com/Txus5012/WFRP4e-Endeavours#readme",
