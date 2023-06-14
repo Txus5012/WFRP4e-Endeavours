@@ -1,3 +1,8 @@
-2023/06/09-15:50:45.630 1edc Recovering log #16
-2023/06/09-15:50:45.633 1edc Delete type=0 #16
-2023/06/09-15:50:45.633 1edc Delete type=3 #14
+2023/06/09-16:09:25.162 2e48 Recovering log #22
+2023/06/09-16:09:25.165 2e48 Delete type=0 #22
+2023/06/09-16:09:25.165 2e48 Delete type=3 #20
+2023/06/09-16:09:51.602 3bac Level-0 table #27: started
+2023/06/09-16:09:51.602 3bac Level-0 table #27: 0 bytes OK
+2023/06/09-16:09:51.603 3bac Delete type=0 #25
+2023/06/09-16:09:51.604 3bac Manual compaction at level-0 from '!items!0uAdenlQr0lK438e' @ 72057594037927935 : 1 .. '!items.effects!zXFw4YVj4nXE7Zet.rejKQOqbk4juTHHv' @ 0 : 0; will stop at (end)
+2023/06/09-16:09:51.604 3bac Manual compaction at level-1 from '!items!0uAdenlQr0lK438e' @ 72057594037927935 : 1 .. '!items.effects!zXFw4YVj4nXE7Zet.rejKQOqbk4juTHHv' @ 0 : 0; will stop at (end)
