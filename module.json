@@ -5,10 +5,11 @@
   "authors": [
     {
       "name": "Txus",
-      "url": "https://ko-fi.com/txus5012"
+      "url": "https://ko-fi.com/txus5012",
+      "flags": {}
     }
   ],
-  "version": "1.4.1",
+  "version": "1.4.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -23,14 +24,24 @@
       "name": "wfrp4e-endeavours-items",
       "type": "Item",
       "system": "wfrp4e",
-      "path": "packs/wfrp4e-endeavours-items"
+      "path": "packs/wfrp4e-endeavours-items",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "label": "WFRP4e Endeavours Macro",
       "name": "wfrp4e-endeavours-macro",
       "type": "Macro",
       "system": "wfrp4e",
-      "path": "packs/wfrp4e-endeavours-macro"
+      "path": "packs/wfrp4e-endeavours-macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -71,7 +82,8 @@
     "recommends": [
       {
         "id": "wfrp4e",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
       }
     ]
   },
@@ -79,5 +91,5 @@
   "url": "https://github.com/Txus5012/WFRP4e-Endeavours",
   "readme": "https://github.com/Txus5012/WFRP4e-Endeavours#readme",
   "manifest": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/latest/download/module.json",
-  "download": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.4.1/wfrp4e-endeavours.zip"
+  "download": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.4.2/wfrp4e-endeavours.zip"
 }
