@@ -1,7 +1,7 @@
 {
   "id": "wfrp4e-endeavours",
   "title": "WFRP4e - Endeavours",
-  "description": "Macros to select endeavours (between adventures and travel) and money to burn.",
+  "description": "Macro to select endeavours (between adventures and travel).",
   "authors": [
     {
       "name": "Txus",
@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "1.4.3",
+  "version": "1.4.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -78,9 +78,18 @@
       "flags": {}
     }
   ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
   "socket": true,
   "url": "https://github.com/Txus5012/WFRP4e-Endeavours",
   "readme": "https://github.com/Txus5012/WFRP4e-Endeavours#readme",
   "manifest": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/latest/download/module.json",
-  "download": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.4.3/wfrp4e-endeavours.zip"
+  "download": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.4.2/wfrp4e-endeavours.zip"
 }

@@ -22,7 +22,7 @@
     "settings.ulricsson.name": "Empresa de Ulricsson",
     "settings.ulricsson.hint": "A\u00F1ade la empresa concedida por Diel Ulricsson (Patrons of the Old World II).",
 
-    "WFRP4eEndeavours.NoToken": "Debes seleccionar al menos una ficha de PJ",
+    "WFRP4eEndeavours.NoToken": "Debes seleccionar al menos un icono de PJ",
     "WFRP4eEndeavours.Request": "El DJ ha pedido Empresas",
     "WFRP4eEndeavours.Endeavour.Label": "Escoge una empresa: ",
     "WFRP4eEndeavours.Endeavour.Endeavour": "Empresa",
@@ -109,14 +109,14 @@
     "WFRP4eEndeavours.Link.Reputation": "@UUID[JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.N4EC4CCPZtX9i5qa]{Reputaci\u00F3n}.",
     "WFRP4eEndeavours.Link.Research": "@UUID[JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.2fjLtw5evY7LnjS0]{Investigar un saber}.",
     "WFRP4eEndeavours.Link.Mark": "@UUID[JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.7OPLj3XFgJvpj24D]{Estudiar a una v\u00EDctima}.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.w6bgiYK0m0tE9ra3]{Estudiar a una v\u00EDctima}",
-    "WFRP4eEndeavours.Link.Woodcraft": "@UUID[JournalEntry.vEKwalSbtxEvZLxV.JournalEntryPage.ydgVG7wyZMi5rmEI]{Conocimiento del bosque}.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.v17mX07IRnYJa8ju]{Conocimiento del bosque}",
-    "WFRP4eEndeavours.Link.Forage": "@UUID[JournalEntry.vEKwalSbtxEvZLxV.JournalEntryPage.gOYxEWeCEpGyQpz7]{Forrajear}.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.yaScut9F9BczNQ82]{Forrajear}",
-    "WFRP4eEndeavours.Link.Information": "@UUID[JournalEntry.vEKwalSbtxEvZLxV.JournalEntryPage.hBqb1r8DQ0yetQFk]{Recopilar informaci\u00F3n}.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.6oflBLaejV68Ds4Y]{Recopilar informaci\u00F3n}",
-    "WFRP4eEndeavours.Link.Watch": "@UUID[JournalEntry.vEKwalSbtxEvZLxV.JournalEntryPage.yvdhuxcAAkxkklmf]{Montar guardia}.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.yQKnn7GB8tZvyisf]{Montar guardia}",
-    "WFRP4eEndeavours.Link.Map": "@UUID[JournalEntry.vEKwalSbtxEvZLxV.JournalEntryPage.SiADDCab9kI0BAJR]{Trazar la ruta}.",
-    "WFRP4eEndeavours.Link.Practice": "@UUID[JournalEntry.vEKwalSbtxEvZLxV.JournalEntryPage.yRShdcqphDDsrve5]{Practicar una habilidad}.",
-    "WFRP4eEndeavours.Link.Recuperate": "@UUID[JournalEntry.vEKwalSbtxEvZLxV.JournalEntryPage.pSXKs5wkCogMJist]{Recuperar}.",
-    "WFRP4eEndeavours.Link.Camp": "@UUID[JournalEntry.vEKwalSbtxEvZLxV.JournalEntryPage.2fJCV0zDeqoGZjqq]{Acampar}.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.Bl4HfC9PHexKcAxK]{Acampar (Descansar)} o @UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.0uAdenlQr0lK438e]{Acampar (Sanar)}",
+    "WFRP4eEndeavours.Link.Woodcraft": "Conocimiento del bosque.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.v17mX07IRnYJa8ju]{Conocimiento del bosque}",
+    "WFRP4eEndeavours.Link.Forage": "Forrajear.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.yaScut9F9BczNQ82]{Forrajear}",
+    "WFRP4eEndeavours.Link.Information": "Recopilar informaci\u00F3n.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.6oflBLaejV68Ds4Y]{Recopilar informaci\u00F3n}",
+    "WFRP4eEndeavours.Link.Watch": "Montar guardia.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.yQKnn7GB8tZvyisf]{Montar guardia}",
+    "WFRP4eEndeavours.Link.Map": "Trazar la ruta.",
+    "WFRP4eEndeavours.Link.Practice": "Practicar una habilidad.",
+    "WFRP4eEndeavours.Link.Recuperate": "Recuperar.",
+    "WFRP4eEndeavours.Link.Camp": "Acampar.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.Bl4HfC9PHexKcAxK]{Acampar (Descansar)} o @UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.0uAdenlQr0lK438e]{Acampar (Sanar)}",
     "WFRP4eEndeavours.Link.College": "Investigaci\u00F3n en Colegio.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.6w5TWRe30xs1PwmX]{Investigaci\u00F3n en Colegio}",
     "WFRP4eEndeavours.Link.Patronage": "Patrocinio.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.Tc4mUAG2DtdfdRaI]{Patrocinio}",
     "WFRP4eEndeavours.Link.Penance": "Penitencia.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.LtZXd1AtW9bP0qwq]{Penitencia}",
@@ -279,7 +279,5 @@
     "NAME.TradeBoatbuilder":"Oficio (Constructor de botes)",
     "NAME.TradeCarpenter":"Oficio (Carpintero)",
     "NAME.LoreTheology":"Sabidur\u00EDa acad\u00E9mica (Teolog\u00EDa)",
-    "NAME.LoreSigmar":"Sabidur\u00EDa acad\u00E9mica (Sigmar)",
-	
-	"WFRP4eEndeavours.MoneytoBurn": "Se ha gastado el dinero de <b>{token}</b>"
+    "NAME.LoreSigmar":"Sabidur\u00EDa acad\u00E9mica (Sigmar)"
 }
