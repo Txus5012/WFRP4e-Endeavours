@@ -12,9 +12,11 @@ https://github.com/Txus5012/WFRP4e-Endeavours/releases/latest/download/module.js
 ![Installation](https://user-images.githubusercontent.com/87753744/217327313-8a8f35db-e75c-4780-99dc-03b85a130f7d.jpg)
 
 ## Instructions
-Activate the module and import the macro into your world. You don't have to import the items.
+Activate the module and import the macros into your world. You don't have to import the items.
 
-Select the token(s) that can make endeavours and execute the macro. The player(s) will be prompted to select an endeavour:
+### Endeavours
+
+Select the token(s) that can make endeavours and execute the "WFRP4e Endeavours" macro. The player(s) will be prompted to select an endeavour:
 
 ![Endeavours Dialog](https://user-images.githubusercontent.com/87753744/214647333-541fbd6a-45e0-4bed-bea3-7ab9f44e2f9f.jpg)
 
