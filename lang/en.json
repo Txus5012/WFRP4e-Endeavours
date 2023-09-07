@@ -279,5 +279,7 @@
     "NAME.TradeBoatbuilder":"Trade (Boatbuilder)",
     "NAME.TradeCarpenter":"Trade (Carpenter)",
     "NAME.LoreTheology":"Lore (Theology)",
-    "NAME.LoreSigmar":"Lore (Sigmar)"
+    "NAME.LoreSigmar":"Lore (Sigmar)",
+	
+	"WFRP4eEndeavours.MoneytoBurn": "<b>{token}</b>'s money is burnt."
 }

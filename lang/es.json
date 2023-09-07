@@ -279,5 +279,7 @@
     "NAME.TradeBoatbuilder":"Oficio (Constructor de botes)",
     "NAME.TradeCarpenter":"Oficio (Carpintero)",
     "NAME.LoreTheology":"Sabidur\u00EDa acad\u00E9mica (Teolog\u00EDa)",
-    "NAME.LoreSigmar":"Sabidur\u00EDa acad\u00E9mica (Sigmar)"
+    "NAME.LoreSigmar":"Sabidur\u00EDa acad\u00E9mica (Sigmar)",
+	
+	"WFRP4eEndeavours.MoneytoBurn": "Se ha gastado el dinero de <b>{token}</b>"
 }
