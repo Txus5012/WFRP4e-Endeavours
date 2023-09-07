@@ -34,6 +34,14 @@ An extra message will show in the result card for extra flavor.
 
 ![Endeavours Result](https://user-images.githubusercontent.com/87753744/214651418-00d20e0c-5309-47bb-b6fe-835113b96780.jpg)
 
+### Money to Burn
+
+Select one or more PC tokens (it won't work on NPCs or Creatures), execute the "Money to Burn" macro and that's it, money is gone.
+
+![MtB](https://github.com/Txus5012/WFRP4e-Endeavours/assets/87753744/cd8d5102-6e8b-4233-8491-fb22373edd0a)
+
+Works with modules that translates money too.
+
 ## Extra Endeavours
 - Since version 1.1.0 there is a module settings menu for GMs where they can select extra endeavours from **Altdorf: Crown of the Empire** and **Patrons of the Old World I & II**. They all are "Between adventures" endeavours.
 
