@@ -78,15 +78,6 @@
       "flags": {}
     }
   ],
-  "relationships": {
-    "recommends": [
-      {
-        "id": "wfrp4e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
   "socket": true,
   "url": "https://github.com/Txus5012/WFRP4e-Endeavours",
   "readme": "https://github.com/Txus5012/WFRP4e-Endeavours#readme",
