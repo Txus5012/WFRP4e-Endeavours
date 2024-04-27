@@ -5,6 +5,8 @@ export function endeavour(actor, travel) {
     let selectedEndeavour;
     let endeavours;
     let endeavourlabel;
+	let title;
+	let change;
     
     if ( !travel ) {
 		endeavourlabel = {
@@ -236,8 +238,16 @@ export function endeavour(actor, travel) {
       }
     content += `</select></div>`
 
+	if (!travel) {
+		title = game.i18n.localize("WFRP4eEndeavours.Endeavour.BAEndeavour")
+		change = game.i18n.localize("WFRP4eEndeavours.Endeavour.TravelEndeavour")
+	} else {
+		title = game.i18n.localize("WFRP4eEndeavours.Endeavour.TravelEndeavour")
+		change = game.i18n.localize("WFRP4eEndeavours.Endeavour.BAEndeavour")
+	}
+
       let d = new Dialog({
-        title: game.i18n.localize("WFRP4eEndeavours.Endeavour.Endeavour"),
+        title,
         content,
         buttons: {
           select: {
@@ -250,7 +260,7 @@ export function endeavour(actor, travel) {
           },
           travel: {
             icon: "<i class='fas fa-solid fa-list-ul'></i>",
-            label: game.i18n.localize("WFRP4eEndeavours.Endeavour.Other"),
+            label: change,
             callback: (html) => {
               endeavour(actor, !travel)
             }
@@ -267,7 +277,7 @@ export function endeavour(actor, travel) {
           
     })
     d.options.width = 500
-    d.position.width = 500
+    d.position.width = 800
     d.render(true);
 
     // used to create the chat messages
