@@ -40,7 +40,7 @@ An extra message will show in the result card for extra flavor.
 
 Select one or more PC tokens (it won't work on NPCs or Creatures), execute the "Money to Burn" macro and that's it, money is gone.
 
-![MtB](https://github.com/Txus5012/WFRP4e-Endeavours/assets/87753744/cd8d5102-6e8b-4233-8491-fb22373edd0a)
+![Money Burnt](https://github.com/Txus5012/WFRP4e-Endeavours/assets/87753744/91733539-2f4f-45ba-8cdd-adfffa771548)
 
 Works with modules that translates money too.
 
