@@ -22,6 +22,9 @@
     "settings.ulricsson.name": "Empresa de Ulricsson",
     "settings.ulricsson.hint": "A\u00F1ade la empresa concedida por Diel Ulricsson (Patrons of the Old World II).",
 
+    "WFRP4eEndeavours.EventsTable": "Tabla de Eventos",
+    "WFRP4eEndeavours.BAEvent": "Evento Entre Aventuras",
+
     "WFRP4eEndeavours.NoToken": "Debes seleccionar al menos una ficha de PJ",
     "WFRP4eEndeavours.Request": "El DJ ha pedido Empresas",
     "WFRP4eEndeavours.Endeavour.Label": "Escoge una empresa: ",
@@ -114,7 +117,7 @@
     "WFRP4eEndeavours.Link.Forage": "Forrajear.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.yaScut9F9BczNQ82]{Forrajear}",
     "WFRP4eEndeavours.Link.Information": "Recopilar informaci\u00F3n.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.6oflBLaejV68Ds4Y]{Recopilar informaci\u00F3n}",
     "WFRP4eEndeavours.Link.Watch": "Montar guardia.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.yQKnn7GB8tZvyisf]{Montar guardia}",
-    "WFRP4eEndeavours.Link.Map": "Trazar la ruta.",
+    "WFRP4eEndeavours.Link.Map": Trazar la ruta.",
     "WFRP4eEndeavours.Link.Practice": "Practicar una habilidad.",
     "WFRP4eEndeavours.Link.Recuperate": "Recuperar.",
     "WFRP4eEndeavours.Link.Camp": "Acampar.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.0uAdenlQr0lK438e]{Acampar}",

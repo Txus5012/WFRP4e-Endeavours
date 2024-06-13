@@ -22,6 +22,9 @@
     "settings.ulricsson.name": "Ulricsson Endeavour",
     "settings.ulricsson.hint": "Adds the endeavour granted by Diel Ulricsson (Patrons of the Old World II).",
 
+    "WFRP4eEndeavours.EventsTable": "Events Table",
+    "WFRP4eEndeavours.BAEvent": "Between Adventures Event",
+
     "WFRP4eEndeavours.NoToken": "You must select at least one PC token",
     "WFRP4eEndeavours.Request": "GM has requested Endeavours",
     "WFRP4eEndeavours.Endeavour.Label": "Choose an endeavour: ",
@@ -32,7 +35,7 @@
     "WFRP4eEndeavours.Endeavour.None": "None",
     "WFRP4eEndeavours.Endeavour.Election": "I will do <b>{endeavour}",
     "WFRP4eEndeavours.Endeavour.Nothing": "I will do nothing in particular.",
-    
+
     "WFRP4eEndeavours.BA.Animal": "Animal Training",
     "WFRP4eEndeavours.BA.Banking": "Banking",
     "WFRP4eEndeavours.BA.Career": "Changing Career",
@@ -81,7 +84,7 @@
     "WFRP4eEndeavours.BA.Hedge": "Hedge School",
     "WFRP4eEndeavours.BA.Visionaries": "No Use for Visionaries",
     "WFRP4eEndeavours.BA.Witness": "Bear Witness",
-    
+
     "WFRP4eEndeavours.Travel.Woodcraft": "Woodcraft",
     "WFRP4eEndeavours.Travel.Forage": "Forage",
     "WFRP4eEndeavours.Travel.Information": "Gather Information",
@@ -93,7 +96,7 @@
     "WFRP4eEndeavours.Travel.Shelter": "Find Shelter",
     "WFRP4eEndeavours.Travel.ForageforFood": "Forage for Food",
     "WFRP4eEndeavours.Travel.Boat": "Repair a Boat",
-    
+
     "WFRP4eEndeavours.Link.Animal": "@UUID[JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.WQQk92GoGp7fRH89]{Animal Training}.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.zWoIAiRiUEhgHwrE]{Animal Training}",
     "WFRP4eEndeavours.Link.Banking": "@UUID[JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.OqE6vzTEebofbX92]{Banking}.",
     "WFRP4eEndeavours.Link.Career": "@UUID[JournalEntry.gLDW6JBuoYuzCoya.JournalEntryPage.oj2iiLVfNWp7KIhk]{Changing Career}.",
@@ -157,7 +160,7 @@
     "WFRP4eEndeavours.Link.Hedge": "Hedge School.",
     "WFRP4eEndeavours.Link.Visionaries": "No Use for Visionaries.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.Y8S3DwkxYEFpMUdM]{Foment Dissent with Rosendorn}.<br>Then @UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.ZYiQGec6Gi6K85lz]{Rosendorn's Prophecy} for Rosendorn",
     "WFRP4eEndeavours.Link.Witness": "Bear Witness.</b></h3><p>@UUID[Compendium.wfrp4e-endeavours.wfrp4e-endeavours-items.Item.dJZMhU1DKTmdvy8S]{Bear Witness}",
-    
+
     "WFRP4eEndeavours.Title.Animal": " - Animal Training",
     "WFRP4eEndeavours.Title.Expert": " - Find an Expert",
     "WFRP4eEndeavours.Title.DissentCharm": " - Foment Dissent (Charm)",
