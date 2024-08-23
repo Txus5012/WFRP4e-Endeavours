@@ -58,6 +58,6 @@ Activating Sea of Claws endeavours will replace the "Between adventures" endeavo
 Activating Lustria endeavours will add "Between Adventures" endeavours and replace the "Travel" ones.
 
 ## Contributions
-Only the "Between adventures" endeavours from the Core module have journal links included, If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire, Up in Arms, Old World Bundle I and/or Winds of Magic Foundry modules, you can help me with the rest of the journal links.
+Only the endeavours from the Core Rulebook, Up in arms, Winds of Magic and Sea of Claws modules have journal links included. If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire and/or Old World Bundle I Foundry modules, you can help me with the rest of the journal links.
 
 Contact me in the issues tab.
