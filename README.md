@@ -22,11 +22,11 @@ Select the token(s) that can make endeavours and execute the "WFRP4e Endeavours"
 
 - **Select**: The character will do the selected endeavour.
 
-- **Other**: Change between "Between adventures" and "Travel" endeavours.
+- **Travel Endeavours/Between Adventures Endeavours**: Change between "Between adventures" and "Travel" endeavours.
 
 - **None**: The character won't do any endeavour.
 
-A chat card will appear with the desired endeavour. If chosen a "Between adventures" endeavour from the Core module, it will show a journal link (v10 journal pages). Not available yet for "Travel" or extra endeavours.
+A chat card will appear with the desired endeavour. If chosen an endeavour from the Core module, Up in Arms, Winds of Magic or Sea of Claws, it will show a journal link. Endeavours from other modules not available yet.
 
 ![Endeavours Card](https://github.com/user-attachments/assets/accd7b21-84ee-416e-9714-2fb2144b2108)
 
