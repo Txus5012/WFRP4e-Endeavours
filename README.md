@@ -18,7 +18,7 @@ Activate the module and import the macros into your world. You don't have to imp
 
 Select the token(s) that can make endeavours and execute the "WFRP4e Endeavours" macro. The player(s) will be prompted to select an endeavour:
 
-![Endeavours Dialog](https://user-images.githubusercontent.com/87753744/214647333-541fbd6a-45e0-4bed-bea3-7ab9f44e2f9f.jpg)
+![Endeavours Dialog](https://github.com/user-attachments/assets/349f477b-cc51-4709-8ab3-ebb221a332da)
 
 - **Select**: The character will do the selected endeavour.
 
@@ -28,7 +28,7 @@ Select the token(s) that can make endeavours and execute the "WFRP4e Endeavours"
 
 A chat card will appear with the desired endeavour. If chosen a "Between adventures" endeavour from the Core module, it will show a journal link (v10 journal pages). Not available yet for "Travel" or extra endeavours.
 
-![Endeavours Card](https://user-images.githubusercontent.com/87753744/214649375-bfff0e86-040f-4e75-ac9b-2ed6e7a24ace.jpg)
+![Endeavours Card](https://github.com/user-attachments/assets/accd7b21-84ee-416e-9714-2fb2144b2108)
 
 Some endeavours have one or more items appearing in the chat card. The GM or the player can drag it to the character sheet and a roll dialog will show. As the GM, class or other can change the difficulty or modifiers, you can edit this dialog if needed.
 
@@ -56,6 +56,8 @@ Activating Sea of Claws endeavours will replace the "Between adventures" endeavo
 - Version 1.3.0 adds endeavours from **Lustria**.
 
 Activating Lustria endeavours will add "Between Adventures" endeavours and replace the "Travel" ones.
+
+- Version 1.6.2 adds the optional "Between Adventures" endeavour from **Dwarf Player's Guide**.
 
 ## Contributions
 Only the endeavours from the Core Rulebook, Up in arms, Winds of Magic and Sea of Claws modules have journal links included. If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire and/or Old World Bundle I Foundry modules, you can help me with the rest of the journal links.
