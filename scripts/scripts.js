@@ -57,6 +57,9 @@ export function endeavour(actor, travel) {
 			endeavourlabel["Rationing"] = game.i18n.localize("WFRP4eEndeavours.BA.Rationing"),
 			endeavourlabel["Sponsoring an Expedition"] = game.i18n.localize("WFRP4eEndeavours.BA.Expedition")
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
+			endeavourlabel["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.BA.ForgeRune")
+				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavourlabel["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.BA.Skaven")
 				}
@@ -167,6 +170,9 @@ export function endeavour(actor, travel) {
 			endeavours["Patrolling the Border"] = game.i18n.localize("WFRP4eEndeavours.Link.Border"),
 			endeavours["Rationing"] = game.i18n.localize("WFRP4eEndeavours.Link.Rationing"),
 			endeavours["Sponsoring an Expedition"] = game.i18n.localize("WFRP4eEndeavours.Link.Expedition")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
+			endeavours["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.Link.ForgeRune")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavours["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.Link.Skaven")

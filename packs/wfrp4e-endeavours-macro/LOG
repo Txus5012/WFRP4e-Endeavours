@@ -1,0 +1,8 @@
+2024/12/07-11:11:29.732 b34 Recovering log #3326
+2024/12/07-11:11:29.794 b34 Delete type=0 #3326
+2024/12/07-11:11:29.794 b34 Delete type=3 #3324
+2024/12/07-11:12:05.850 1bf4 Level-0 table #3331: started
+2024/12/07-11:12:05.850 1bf4 Level-0 table #3331: 0 bytes OK
+2024/12/07-11:12:05.893 1bf4 Delete type=0 #3329
+2024/12/07-11:12:05.968 1bf4 Manual compaction at level-0 from '!macros!A6srQQ916PVFSECt' @ 72057594037927935 : 1 .. '!macros!mHfgPiOY03aQ7Wg8' @ 0 : 0; will stop at (end)
+2024/12/07-11:12:05.968 1bf4 Manual compaction at level-1 from '!macros!A6srQQ916PVFSECt' @ 72057594037927935 : 1 .. '!macros!mHfgPiOY03aQ7Wg8' @ 0 : 0; will stop at (end)

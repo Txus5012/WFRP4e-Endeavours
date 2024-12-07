@@ -54,6 +54,14 @@ game.settings.register('wfrp4e-endeavours', 'lustria', {
         type: Boolean,
         default: false
     });
+game.settings.register('wfrp4e-endeavours', 'dwarf', {
+	name: game.i18n.localize("settings.dwarf.name"),
+	hint: game.i18n.localize("settings.dwarf.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
 game.settings.register('wfrp4e-endeavours', 'shelley', {
 	name: game.i18n.localize("settings.shelley.name"),
 	hint: game.i18n.localize("settings.shelley.hint"),
