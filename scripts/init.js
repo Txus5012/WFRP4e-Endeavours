@@ -62,6 +62,38 @@ game.settings.register('wfrp4e-endeavours', 'dwarf', {
         type: Boolean,
         default: false
     });
+game.settings.register('wfrp4e-endeavours', 'criminal', {
+	name: game.i18n.localize("settings.criminal.name"),
+	hint: game.i18n.localize("settings.criminal.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
+game.settings.register('wfrp4e-endeavours', 'organizedcrime', {
+	name: game.i18n.localize("settings.organizedcrime.name"),
+	hint: game.i18n.localize("settings.organizedcrime.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
+game.settings.register('wfrp4e-endeavours', 'gaol', {
+	name: game.i18n.localize("settings.gaol.name"),
+	hint: game.i18n.localize("settings.gaol.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
+game.settings.register('wfrp4e-endeavours', 'wilderness', {
+	name: game.i18n.localize("settings.wilderness.name"),
+	hint: game.i18n.localize("settings.wilderness.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
 game.settings.register('wfrp4e-endeavours', 'shelley', {
 	name: game.i18n.localize("settings.shelley.name"),
 	hint: game.i18n.localize("settings.shelley.hint"),

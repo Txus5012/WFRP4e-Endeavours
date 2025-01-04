@@ -60,6 +60,17 @@ export function endeavour(actor, travel) {
 		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
 			endeavourlabel["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.BA.ForgeRune")
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'criminal')) {
+			endeavourlabel["Black Market"] = game.i18n.localize("WFRP4eEndeavours.BA.BlackMarket"),
+			endeavourlabel["Gambling Den"] = game.i18n.localize("WFRP4eEndeavours.BA.Gambling"),
+			endeavourlabel["Plant Identities"] = game.i18n.localize("WFRP4eEndeavours.BA.Identities"),
+			endeavourlabel["Whisper Campaign"] = game.i18n.localize("WFRP4eEndeavours.BA.Whisper")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'organizedcrime')) {
+			endeavourlabel["Build Gang"] = game.i18n.localize("WFRP4eEndeavours.BA.Gang"),
+			endeavourlabel["Organising Crime"] = game.i18n.localize("WFRP4eEndeavours.BA.Organising"),
+			endeavourlabel["Maintain Influence"] = game.i18n.localize("WFRP4eEndeavours.BA.Influence")
+				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavourlabel["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.BA.Skaven")
 				}
@@ -98,6 +109,15 @@ export function endeavour(actor, travel) {
 					endeavourlabel["The Leitdorf Defence"] = game.i18n.localize("WFRP4eEndeavours.BA.Leitdorf")
 					}
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'gaol')) {
+			endeavourlabel = {
+				"Changing Career": game.i18n.localize("WFRP4eEndeavours.BA.Career"),
+				"Training": game.i18n.localize("WFRP4eEndeavours.BA.Training"),
+				"Unusual Learning": game.i18n.localize("WFRP4eEndeavours.BA.Learning"),
+				"Study a Mark (Rogues)": game.i18n.localize("WFRP4eEndeavours.BA.Mark"),
+				"Gaol Break": game.i18n.localize("WFRP4eEndeavours.BA.Gaol")
+					}
+				}
 	} else {
 		endeavourlabel = {
 			"Woodcraft": game.i18n.localize("WFRP4eEndeavours.Travel.Woodcraft"),
@@ -118,6 +138,28 @@ export function endeavour(actor, travel) {
 				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.Camp"),
 				"Practice a Skill": game.i18n.localize("WFRP4eEndeavours.Travel.Practice"),
 				"Repair a Boat": game.i18n.localize("WFRP4eEndeavours.Travel.Boat")
+				}
+			}
+		if (game.settings.get('wfrp4e-endeavours', 'wilderness')) {
+			endeavourlabel = {
+				"Planning": game.i18n.localize("WFRP4eEndeavours.Travel.Planning"),
+				"Forage": game.i18n.localize("WFRP4eEndeavours.Travel.ForageWilderness"),
+				"Haste": game.i18n.localize("WFRP4eEndeavours.Travel.Haste"),
+				"Hunt": game.i18n.localize("WFRP4eEndeavours.Travel.Hunt"),
+				"Navigate": game.i18n.localize("WFRP4eEndeavours.Travel.Navigate"),
+				"Navigate Double": game.i18n.localize("WFRP4eEndeavours.Travel.NavigateDouble"),
+				"Map": game.i18n.localize("WFRP4eEndeavours.Travel.Map"),
+				"Map Double": game.i18n.localize("WFRP4eEndeavours.Travel.MapDouble"),
+				"Scout": game.i18n.localize("WFRP4eEndeavours.Travel.Scout"),
+				"Track": game.i18n.localize("WFRP4eEndeavours.Travel.Track"),
+				"Water": game.i18n.localize("WFRP4eEndeavours.Travel.Water"),
+				"Cook": game.i18n.localize("WFRP4eEndeavours.Travel.Cook"),
+				"Journal": game.i18n.localize("WFRP4eEndeavours.Travel.Journal"),
+				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.MakeCamp"),
+				"Recuperate": game.i18n.localize("WFRP4eEndeavours.Travel.RecuperateWilderness"),
+				"Trap": game.i18n.localize("WFRP4eEndeavours.Travel.Trap"),
+				"Watch": game.i18n.localize("WFRP4eEndeavours.Travel.WatchWilderness"),
+				"Watch Extra": game.i18n.localize("WFRP4eEndeavours.Travel.WatchExtra")
 				}
 			}
       }
@@ -174,6 +216,17 @@ export function endeavour(actor, travel) {
 		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
 			endeavours["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.Link.ForgeRune")
 				}
+		if (game.settings.get('wfrp4e-endeavours', 'criminal')) {
+			endeavours["Black Market"] = game.i18n.localize("WFRP4eEndeavours.Link.BlackMarket"),
+			endeavours["Gambling Den"] = game.i18n.localize("WFRP4eEndeavours.Link.Gambling"),
+			endeavours["Plant Identities"] = game.i18n.localize("WFRP4eEndeavours.Link.Identities"),
+			endeavours["Whisper Campaign"] = game.i18n.localize("WFRP4eEndeavours.Link.Whisper")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'organizedcrime')) {
+			endeavours["Build Gang"] = game.i18n.localize("WFRP4eEndeavours.Link.Gang"),
+			endeavours["Organising Crime"] = game.i18n.localize("WFRP4eEndeavours.Link.Organising"),
+			endeavours["Maintain Influence"] = game.i18n.localize("WFRP4eEndeavours.Link.Influence")
+				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavours["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.Link.Skaven")
 				}
@@ -212,6 +265,15 @@ export function endeavour(actor, travel) {
 					endeavours["The Leitdorf Defence"] = game.i18n.localize("WFRP4eEndeavours.Link.Leitdorf")
 					}
 			}
+		if (game.settings.get('wfrp4e-endeavours', 'gaol')) {
+			endeavours = {
+				"Changing Career": game.i18n.localize("WFRP4eEndeavours.Link.Career"),
+				"Training": game.i18n.localize("WFRP4eEndeavours.Link.Training"),
+				"Unusual Learning": game.i18n.localize("WFRP4eEndeavours.Link.Learning"),
+				"Study a Mark": game.i18n.localize("WFRP4eEndeavours.Link.Mark"),
+				"Gaol Break": game.i18n.localize("WFRP4eEndeavours.Link.Gaol")
+				}
+			}
    } else {
 		endeavours = {
 			"Woodcraft": game.i18n.localize("WFRP4eEndeavours.Link.Woodcraft"),
@@ -234,9 +296,31 @@ export function endeavour(actor, travel) {
 				"Repair a Boat": game.i18n.localize("WFRP4eEndeavours.Link.Boat")
 				}
 			}
+		if (game.settings.get('wfrp4e-endeavours', 'wilderness')) {
+			endeavours = {
+				"Planning": game.i18n.localize("WFRP4eEndeavours.Link.Planning"),
+				"Forage": game.i18n.localize("WFRP4eEndeavours.Link.ForageWilderness"),
+				"Haste": game.i18n.localize("WFRP4eEndeavours.Link.Haste"),
+				"Hunt": game.i18n.localize("WFRP4eEndeavours.Link.Hunt"),
+				"Navigate": game.i18n.localize("WFRP4eEndeavours.Link.Navigate"),
+				"Navigate Double": game.i18n.localize("WFRP4eEndeavours.Link.NavigateDouble"),
+				"Map": game.i18n.localize("WFRP4eEndeavours.Link.Map"),
+				"Map Double": game.i18n.localize("WFRP4eEndeavours.Link.MapDouble"),
+				"Scout": game.i18n.localize("WFRP4eEndeavours.Link.Scout"),
+				"Track": game.i18n.localize("WFRP4eEndeavours.Link.Track"),
+				"Water": game.i18n.localize("WFRP4eEndeavours.Link.Water"),
+				"Cook": game.i18n.localize("WFRP4eEndeavours.Link.Cook"),
+				"Journal": game.i18n.localize("WFRP4eEndeavours.Link.Journal"),
+				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Link.MakeCamp"),
+				"Recuperate": game.i18n.localize("WFRP4eEndeavours.Link.RecuperateWilderness"),
+				"Trap": game.i18n.localize("WFRP4eEndeavours.Link.Trap"),
+				"Watch": game.i18n.localize("WFRP4eEndeavours.Link.WatchWilderness"),
+				"Watch Extra": game.i18n.localize("WFRP4eEndeavours.Link.WatchExtra")
+				}
+			}
 	}
 
-    //contentUpdate();
+    // used to create the dialog
     content = `<div class="form-group" id="wfrp4e-endeavours-scripts-content"><label for="endeavour">${game.i18n.localize("WFRP4eEndeavours.Endeavour.Label")}</label>
     <select name="endeavour" id="endeavour">`
       for (let i = 0; i < Object.keys(endeavours).length; i++) {
