@@ -124,7 +124,7 @@ export function endeavour(actor, travel) {
 			"Forage": game.i18n.localize("WFRP4eEndeavours.Travel.Forage"),
 			"Gather Information": game.i18n.localize("WFRP4eEndeavours.Travel.Information"),
 			"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Travel.Watch"),
-			"Map the Route": game.i18n.localize("WFRP4eEndeavours.Travel.Map"),
+			"Map the Route": game.i18n.localize("WFRP4eEndeavours.Travel.MapRoute"),
 			"Practice a Skill": game.i18n.localize("WFRP4eEndeavours.Travel.Practice"),
 			"Recuperate": game.i18n.localize("WFRP4eEndeavours.Travel.Recuperate"),
 			"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.Camp")
@@ -134,7 +134,7 @@ export function endeavour(actor, travel) {
 				"Find Shelter": game.i18n.localize("WFRP4eEndeavours.Travel.Shelter"),
 				"Forage for Food": game.i18n.localize("WFRP4eEndeavours.Travel.ForageforFood"),
 				"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Travel.Watch"),
-				"Map the Route": game.i18n.localize("WFRP4eEndeavours.Travel.Map"),
+				"Map the Route": game.i18n.localize("WFRP4eEndeavours.Travel.MapRoute"),
 				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.Camp"),
 				"Practice a Skill": game.i18n.localize("WFRP4eEndeavours.Travel.Practice"),
 				"Repair a Boat": game.i18n.localize("WFRP4eEndeavours.Travel.Boat")
@@ -280,7 +280,7 @@ export function endeavour(actor, travel) {
 			"Forage": game.i18n.localize("WFRP4eEndeavours.Link.Forage"),
 			"Gather Information": game.i18n.localize("WFRP4eEndeavours.Link.Information"),
 			"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Link.Watch"),
-			"Map the Route": game.i18n.localize("WFRP4eEndeavours.Link.Map"),
+			"Map the Route": game.i18n.localize("WFRP4eEndeavours.Link.MapRoute"),
 			"Practice a Skill": game.i18n.localize("WFRP4eEndeavours.Link.Practice"),
 			"Recuperate": game.i18n.localize("WFRP4eEndeavours.Link.Recuperate"),
 			"Make Camp": game.i18n.localize("WFRP4eEndeavours.Link.Camp")
