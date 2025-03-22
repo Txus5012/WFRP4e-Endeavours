@@ -64,6 +64,8 @@ Activating Lustria endeavours will add "Between Adventures" endeavours and repla
 Subdivided in Criminal Endeavours (adds "Between adventures" endeavours), Organized Crime Endeavours (adds "Between adventures" endeavours), Gaol Endeavours (replaces "Between adventures" endeavours) and Wilderness Travel Endeavours (replaces "Travel" endeavours).
 
 ## Contributions
-Only the endeavours from the Core Rulebook, Up in arms, Winds of Magic and Sea of Claws modules have journal links included. If you want to contribute and have Enemy in Shadows, Altdorf: Crown of the Empire, Lustria and/or Old World Bundle I Foundry modules, you can help me with the rest of the journal links.
+Only the endeavours from the Core Rulebook, Up in arms, Winds of Magic, Sea of Claws and Altdorf: Crown of the Empire modules have journal links included. If you want to contribute and have Enemy in Shadows, Lustria and/or Old World Bundle I Foundry modules, you can help me with the rest of the journal links.
+
+Thanks to [pierfreeman](https://github.com/pierfreeman) for Altdorf: Crown of the Empire links.
 
 Contact me in the issues tab or in this [Discord channel](https://discord.com/channels/449845411344154634/1314908461514883072).
