@@ -1,0 +1,8 @@
+2025/05/13-14:42:51.372 12c Recovering log #3955
+2025/05/13-14:42:51.467 12c Delete type=0 #3955
+2025/05/13-14:42:51.467 12c Delete type=3 #3953
+2025/05/13-14:43:16.900 10cc Level-0 table #3960: started
+2025/05/13-14:43:16.900 10cc Level-0 table #3960: 0 bytes OK
+2025/05/13-14:43:16.940 10cc Delete type=0 #3958
+2025/05/13-14:43:16.940 10cc Manual compaction at level-0 from '!macros!1O25uzpdvUzvqfm4' @ 72057594037927935 : 1 .. '!macros!mHfgPiOY03aQ7Wg8' @ 0 : 0; will stop at (end)
+2025/05/13-14:43:16.940 10cc Manual compaction at level-1 from '!macros!1O25uzpdvUzvqfm4' @ 72057594037927935 : 1 .. '!macros!mHfgPiOY03aQ7Wg8' @ 0 : 0; will stop at (end)

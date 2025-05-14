@@ -58,7 +58,14 @@ export function endeavour(actor, travel) {
 			endeavourlabel["Sponsoring an Expedition"] = game.i18n.localize("WFRP4eEndeavours.BA.Expedition")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
-			endeavourlabel["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.BA.ForgeRune")
+			endeavourlabel["Advance Underground"] = game.i18n.localize("WFRP4eEndeavours.BA.Underground"),
+			endeavourlabel["Brew Batch"] = game.i18n.localize("WFRP4eEndeavours.BA.Brew"),
+			endeavourlabel["Concoct Drakefire"] = game.i18n.localize("WFRP4eEndeavours.BA.Drakefire"),
+			endeavourlabel["Consult the Archives"] = game.i18n.localize("WFRP4eEndeavours.BA.Archives"),
+			endeavourlabel["Customise a Trapping"] = game.i18n.localize("WFRP4eEndeavours.BA.Trapping"),
+			endeavourlabel["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.BA.ForgeRune"),
+			endeavourlabel["Swear Oath"] = game.i18n.localize("WFRP4eEndeavours.BA.Oath"),
+			endeavourlabel["Take the Slayer Oath"] = game.i18n.localize("WFRP4eEndeavours.BA.Slayer")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'criminal')) {
 			endeavourlabel["Black Market"] = game.i18n.localize("WFRP4eEndeavours.BA.BlackMarket"),
@@ -70,6 +77,15 @@ export function endeavour(actor, travel) {
 			endeavourlabel["Build Gang"] = game.i18n.localize("WFRP4eEndeavours.BA.Gang"),
 			endeavourlabel["Organising Crime"] = game.i18n.localize("WFRP4eEndeavours.BA.Organising"),
 			endeavourlabel["Maintain Influence"] = game.i18n.localize("WFRP4eEndeavours.BA.Influence")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'gaol')) {
+			endeavourlabel = {
+				"Changing Career": game.i18n.localize("WFRP4eEndeavours.BA.Career"),
+				"Training": game.i18n.localize("WFRP4eEndeavours.BA.Training"),
+				"Unusual Learning": game.i18n.localize("WFRP4eEndeavours.BA.Learning"),
+				"Study a Mark (Rogues)": game.i18n.localize("WFRP4eEndeavours.BA.Mark"),
+				"Gaol Break": game.i18n.localize("WFRP4eEndeavours.BA.Gaol")
+					}
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'shelley')) {
 			endeavourlabel["A Study in Skaven"] = game.i18n.localize("WFRP4eEndeavours.BA.Skaven")
@@ -107,15 +123,6 @@ export function endeavour(actor, travel) {
 					endeavourlabel["Alcatini Method"] = game.i18n.localize("WFRP4eEndeavours.BA.Alcatini"),
 					endeavourlabel["Fanmaris's Perfect Shot"] = game.i18n.localize("WFRP4eEndeavours.BA.Fanmaris"),
 					endeavourlabel["The Leitdorf Defence"] = game.i18n.localize("WFRP4eEndeavours.BA.Leitdorf")
-					}
-				}
-		if (game.settings.get('wfrp4e-endeavours', 'gaol')) {
-			endeavourlabel = {
-				"Changing Career": game.i18n.localize("WFRP4eEndeavours.BA.Career"),
-				"Training": game.i18n.localize("WFRP4eEndeavours.BA.Training"),
-				"Unusual Learning": game.i18n.localize("WFRP4eEndeavours.BA.Learning"),
-				"Study a Mark (Rogues)": game.i18n.localize("WFRP4eEndeavours.BA.Mark"),
-				"Gaol Break": game.i18n.localize("WFRP4eEndeavours.BA.Gaol")
 					}
 				}
 	} else {
@@ -160,6 +167,15 @@ export function endeavour(actor, travel) {
 				"Trap": game.i18n.localize("WFRP4eEndeavours.Travel.Trap"),
 				"Watch": game.i18n.localize("WFRP4eEndeavours.Travel.WatchWilderness"),
 				"Watch Extra": game.i18n.localize("WFRP4eEndeavours.Travel.WatchExtra")
+				}
+			}
+		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
+			endeavourlabel = {
+				"Find Water": game.i18n.localize("WFRP4eEndeavours.Travel.WaterDelving"),
+				"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Travel.Watch"),
+				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.Camp"),
+				"Map the Route": game.i18n.localize("WFRP4eEndeavours.Travel.MapRoute"),
+				"Recuperate": game.i18n.localize("WFRP4eEndeavours.Travel.Recuperate")
 				}
 			}
       }
@@ -214,7 +230,14 @@ export function endeavour(actor, travel) {
 			endeavours["Sponsoring an Expedition"] = game.i18n.localize("WFRP4eEndeavours.Link.Expedition")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
-			endeavours["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.Link.ForgeRune")
+			endeavours["Advance Underground"] = game.i18n.localize("WFRP4eEndeavours.Link.Underground"),
+			endeavours["Brew Batch"] = game.i18n.localize("WFRP4eEndeavours.Link.Brew"),
+			endeavours["Concoct Drakefire"] = game.i18n.localize("WFRP4eEndeavours.Link.Drakefire"),
+			endeavours["Consult the Archives"] = game.i18n.localize("WFRP4eEndeavours.Link.Archives"),
+			endeavours["Customise a Trapping"] = game.i18n.localize("WFRP4eEndeavours.Link.Trapping"),
+			endeavours["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.Link.ForgeRune"),
+			endeavours["Swear Oath"] = game.i18n.localize("WFRP4eEndeavours.Link.Oath"),
+			endeavours["Take the Slayer Oath"] = game.i18n.localize("WFRP4eEndeavours.Link.Slayer")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'criminal')) {
 			endeavours["Black Market"] = game.i18n.localize("WFRP4eEndeavours.Link.BlackMarket"),
@@ -318,6 +341,15 @@ export function endeavour(actor, travel) {
 				"Watch Extra": game.i18n.localize("WFRP4eEndeavours.Link.WatchExtra")
 				}
 			}
+		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
+			endeavours = {
+			"Find Water": game.i18n.localize("WFRP4eEndeavours.Link.WaterDelving"),
+			"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Link.Watch"),
+			"Make Camp": game.i18n.localize("WFRP4eEndeavours.Link.Camp"),
+			"Map the Route": game.i18n.localize("WFRP4eEndeavours.Link.MapRoute"),
+			"Recuperate": game.i18n.localize("WFRP4eEndeavours.Link.Recuperate")
+				}
+			}
 	}
 
     // used to create the dialog
@@ -336,38 +368,40 @@ export function endeavour(actor, travel) {
 		change = game.i18n.localize("WFRP4eEndeavours.Endeavour.BAEndeavour")
 	}
 
-      let d = new Dialog({
-        title,
+      let d = new foundry.applications.api.DialogV2({
+        window : { title:title },
         content,
-        buttons: {
-          select: {
-            icon: "<i class='fas fa-solid fa-user-helmet-safety'></i>",
+        buttons: [
+          { action : "select", 
+            icon: "fa-solid fa-helmet-safety",
             label: game.i18n.localize("WFRP4eEndeavours.Endeavour.Select"),
-            callback: (html) => {
-              selectedEndeavour = "<h3>" + game.i18n.format("WFRP4eEndeavours.Endeavour.Election", {endeavour: html.find('#endeavour')[0].value}) + "</b></h3>"
+            callback: (_event, button) => {
+              selectedEndeavour = "<h3>" + game.i18n.format("WFRP4eEndeavours.Endeavour.Election", {endeavour: new foundry.applications.ux.FormDataExtended(button.form).object.endeavour}) + "</b></h3>"
               generateChat(actor, selectedEndeavour)
             }
           },
-          travel: {
-            icon: "<i class='fas fa-solid fa-list-ul'></i>",
+          {
+		    action : "travel",
+            icon: "fa-solid fa-list-ul",
             label: change,
-            callback: (html) => {
+            callback: () => {
               endeavour(actor, !travel)
             }
           },
-          none: {
-            icon: "<i class='fa-light fa-face-sleeping'></i>",  
+		  {
+            action : "none", 
+            icon: "fa-light fa-face-sleeping",  
             label: game.i18n.localize("WFRP4eEndeavours.Endeavour.None"),
             callback: () => {
               selectedEndeavour = "<h3>" + game.i18n.localize("WFRP4eEndeavours.Endeavour.Nothing") + "</h3>"
                 generateChat(actor, selectedEndeavour)
             }
           }
-        },
-          
+        ],
+		position : { width: 800 },
+		options : { width: 500 },
     })
-    d.options.width = 500
-    d.position.width = 800
+
     d.render(true);
 
     // used to create the chat messages
