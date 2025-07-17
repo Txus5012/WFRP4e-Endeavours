@@ -61,11 +61,11 @@ Activating Lustria endeavours will add "Between Adventures" endeavours and repla
 
 - Version 1.7.0 adds the optional endeavours from **Deft Steps Light Fingers**.
 
+Subdivided in Criminal Endeavours (adds "Between adventures" endeavours), Organized Crime Endeavours (adds "Between adventures" endeavours), Gaol Endeavours (replaces "Between adventures" endeavours) and Wilderness Travel Endeavours (replaces "Travel" endeavours).
+
 - Version 1.8.0 adds the optional endeavours from **Lords of Stone and Steel**.
 
 - Version 1.9.0 adds the optional "Between Adventures" endeavours from **High Elf Player's Guide** and **Sea Wardens of Cothique**.
-
-Subdivided in Criminal Endeavours (adds "Between adventures" endeavours), Organized Crime Endeavours (adds "Between adventures" endeavours), Gaol Endeavours (replaces "Between adventures" endeavours) and Wilderness Travel Endeavours (replaces "Travel" endeavours).
 
 ## Contributions
 Only the endeavours from the Core Rulebook, Up in arms, Winds of Magic, Sea of Claws and Altdorf: Crown of the Empire, Enemy in Shadows and Old World Bundle I modules have journal links included. If you want to contribute and have Lustria and/or Deft Steps Light Fingers Foundry modules, you can help me with the rest of the journal links.
