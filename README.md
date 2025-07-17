@@ -68,7 +68,9 @@ Subdivided in Criminal Endeavours (adds "Between adventures" endeavours), Organi
 - Version 1.9.0 adds the optional "Between Adventures" endeavours from **High Elf Player's Guide** and **Sea Wardens of Cothique**.
 
 ## Contributions
-Only the endeavours from the Core Rulebook, Up in arms, Winds of Magic, Sea of Claws and Altdorf: Crown of the Empire, Enemy in Shadows and Old World Bundle I modules have journal links included. If you want to contribute and have Lustria and/or Deft Steps Light Fingers Foundry modules, you can help me with the rest of the journal links.
+Only the endeavours from the Core Rulebook, Up in arms, Winds of Magic, Sea of Claws and Altdorf: Crown of the Empire, Enemy in Shadows and Old World Bundle I modules have journal links included.
+
+If you want to contribute and have Lustria and/or Deft Steps Light Fingers Foundry modules, you can help me with the rest of the journal links.
 
 Thanks to [pierfreeman](https://github.com/pierfreeman) for Altdorf: Crown of the Empire links.
 
