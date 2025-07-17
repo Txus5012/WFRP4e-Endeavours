@@ -70,6 +70,14 @@
       "flags": {}
     }
   ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system"
+      }
+    ]
+  },
   "media": [
     {
       "type": "setup",

@@ -42,7 +42,7 @@ export function endeavour(actor, travel) {
 			endeavourlabel["The Quartermaster Shuffle"] = game.i18n.localize("WFRP4eEndeavours.BA.Quartermaster")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'wom')) {
-			endeavourlabel["Brew Potion"] = game.i18n.localize("WFRP4eEndeavours.BA.Brew"),
+			endeavourlabel["Brew Potion"] = game.i18n.localize("WFRP4eEndeavours.BA.Potion"),
 			endeavourlabel["Gather Ingredients"] = game.i18n.localize("WFRP4eEndeavours.BA.Ingredients"),
 			endeavourlabel["Improve Familiar"] = game.i18n.localize("WFRP4eEndeavours.BA.Familiar"),
 			endeavourlabel["Perform Ritual"] = game.i18n.localize("WFRP4eEndeavours.BA.Ritual")
@@ -66,6 +66,11 @@ export function endeavour(actor, travel) {
 			endeavourlabel["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.BA.ForgeRune"),
 			endeavourlabel["Swear Oath"] = game.i18n.localize("WFRP4eEndeavours.BA.Oath"),
 			endeavourlabel["Take the Slayer Oath"] = game.i18n.localize("WFRP4eEndeavours.BA.Slayer")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'helf')) {
+			endeavourlabel["Intrigue"] = game.i18n.localize("WFRP4eEndeavours.BA.Intrigue"),
+			endeavourlabel["Cast Aspersions"] = game.i18n.localize("WFRP4eEndeavours.BA.Aspersions"),
+			endeavourlabel["Repair Reputation"] = game.i18n.localize("WFRP4eEndeavours.BA.RepairReputation")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'criminal')) {
 			endeavourlabel["Black Market"] = game.i18n.localize("WFRP4eEndeavours.BA.BlackMarket"),
@@ -214,7 +219,7 @@ export function endeavour(actor, travel) {
 			endeavours["The Quartermaster Shuffle"] = game.i18n.localize("WFRP4eEndeavours.Link.Quartermaster")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'wom')) {
-			endeavours["Brew Potion"] = game.i18n.localize("WFRP4eEndeavours.Link.Brew"),
+			endeavours["Brew Potion"] = game.i18n.localize("WFRP4eEndeavours.Link.Potion"),
 			endeavours["Gather Ingredients"] = game.i18n.localize("WFRP4eEndeavours.Link.Ingredients"),
 			endeavours["Improve Familiar"] = game.i18n.localize("WFRP4eEndeavours.Link.Familiar"),
 			endeavours["Perform Ritual"] = game.i18n.localize("WFRP4eEndeavours.Link.Ritual")
@@ -238,6 +243,11 @@ export function endeavour(actor, travel) {
 			endeavours["Forge Rune"] = game.i18n.localize("WFRP4eEndeavours.Link.ForgeRune"),
 			endeavours["Swear Oath"] = game.i18n.localize("WFRP4eEndeavours.Link.Oath"),
 			endeavours["Take the Slayer Oath"] = game.i18n.localize("WFRP4eEndeavours.Link.Slayer")
+				}
+		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
+			endeavours["Intrigue"] = game.i18n.localize("WFRP4eEndeavours.Link.Intrigue"),
+			endeavours["Cast Aspersions"] = game.i18n.localize("WFRP4eEndeavours.Link.Aspersions"),
+			endeavours["Repair Reputation"] = game.i18n.localize("WFRP4eEndeavours.Link.RepairReputation")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'criminal')) {
 			endeavours["Black Market"] = game.i18n.localize("WFRP4eEndeavours.Link.BlackMarket"),

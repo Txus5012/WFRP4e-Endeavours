@@ -62,6 +62,14 @@ game.settings.register('wfrp4e-endeavours', 'dwarf', {
         type: Boolean,
         default: false
     });
+game.settings.register('wfrp4e-endeavours', 'helf', {
+	name: game.i18n.localize("settings.helf.name"),
+	hint: game.i18n.localize("settings.helf.hint"),
+        scope: 'world',
+        config: true,
+        type: Boolean,
+        default: false
+    });
 game.settings.register('wfrp4e-endeavours', 'criminal', {
 	name: game.i18n.localize("settings.criminal.name"),
 	hint: game.i18n.localize("settings.criminal.hint"),
