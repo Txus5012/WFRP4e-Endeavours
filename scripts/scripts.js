@@ -145,9 +145,9 @@ export function endeavour(actor, travel) {
 			endeavourlabel = {
 				"Find Shelter": game.i18n.localize("WFRP4eEndeavours.Travel.Shelter"),
 				"Forage for Food": game.i18n.localize("WFRP4eEndeavours.Travel.ForageforFood"),
-				"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Travel.Watch"),
+				"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Travel.WatchLustria"),
 				"Map the Route": game.i18n.localize("WFRP4eEndeavours.Travel.MapRoute"),
-				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.Camp"),
+				"Make Camp": game.i18n.localize("WFRP4eEndeavours.Travel.CampLustria"),
 				"Practice a Skill": game.i18n.localize("WFRP4eEndeavours.Travel.Practice"),
 				"Repair a Boat": game.i18n.localize("WFRP4eEndeavours.Travel.Boat")
 				}
@@ -244,7 +244,7 @@ export function endeavour(actor, travel) {
 			endeavours["Swear Oath"] = game.i18n.localize("WFRP4eEndeavours.Link.Oath"),
 			endeavours["Take the Slayer Oath"] = game.i18n.localize("WFRP4eEndeavours.Link.Slayer")
 				}
-		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
+		if (game.settings.get('wfrp4e-endeavours', 'helf')) {
 			endeavours["Intrigue"] = game.i18n.localize("WFRP4eEndeavours.Link.Intrigue"),
 			endeavours["Cast Aspersions"] = game.i18n.localize("WFRP4eEndeavours.Link.Aspersions"),
 			endeavours["Repair Reputation"] = game.i18n.localize("WFRP4eEndeavours.Link.RepairReputation")
@@ -354,10 +354,10 @@ export function endeavour(actor, travel) {
 		if (game.settings.get('wfrp4e-endeavours', 'dwarf')) {
 			endeavours = {
 			"Find Water": game.i18n.localize("WFRP4eEndeavours.Link.WaterDelving"),
-			"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Link.Watch"),
-			"Make Camp": game.i18n.localize("WFRP4eEndeavours.Link.Camp"),
-			"Map the Route": game.i18n.localize("WFRP4eEndeavours.Link.MapRoute"),
-			"Recuperate": game.i18n.localize("WFRP4eEndeavours.Link.Recuperate")
+			"Keep Watch": game.i18n.localize("WFRP4eEndeavours.Link.WatchDelving"),
+			"Make Camp": game.i18n.localize("WFRP4eEndeavours.Link.CampDelving"),
+			"Map the Route": game.i18n.localize("WFRP4eEndeavours.Link.MapRouteDelving"),
+			"Recuperate": game.i18n.localize("WFRP4eEndeavours.Link.RecuperateDelving")
 				}
 			}
 	}
