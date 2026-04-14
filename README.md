@@ -9,7 +9,8 @@ Available in English and Spanish.
 Copy the following link and paste it in Add-On Modules => Install Module => Manifest URL
 
 https://github.com/Txus5012/WFRP4e-Endeavours/releases/latest/download/module.json
-![Installation](https://user-images.githubusercontent.com/87753744/217327313-8a8f35db-e75c-4780-99dc-03b85a130f7d.jpg)
+![Installation](https://github.com/user-attachments/assets/9d34461a-9daf-43cb-988b-f8503abe05be)
+
 
 ## Instructions
 Activate the module and import the macros into your world. You don't have to import the items.
