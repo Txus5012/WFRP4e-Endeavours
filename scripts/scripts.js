@@ -73,6 +73,7 @@ export function endeavour(actor, travel) {
 			endeavourlabel["Repair Reputation"] = game.i18n.localize("WFRP4eEndeavours.BA.RepairReputation")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'criminal')) {
+			endeavourlabel["Establishing a contact"] = game.i18n.localize("WFRP4eEndeavours.BA.Contact"),
 			endeavourlabel["Black Market"] = game.i18n.localize("WFRP4eEndeavours.BA.BlackMarket"),
 			endeavourlabel["Gambling Den"] = game.i18n.localize("WFRP4eEndeavours.BA.Gambling"),
 			endeavourlabel["Plant Identities"] = game.i18n.localize("WFRP4eEndeavours.BA.Identities"),
@@ -250,6 +251,7 @@ export function endeavour(actor, travel) {
 			endeavours["Repair Reputation"] = game.i18n.localize("WFRP4eEndeavours.Link.RepairReputation")
 				}
 		if (game.settings.get('wfrp4e-endeavours', 'criminal')) {
+			endeavours["Establishing a contact"] = game.i18n.localize("WFRP4eEndeavours.Link.Contact"),
 			endeavours["Black Market"] = game.i18n.localize("WFRP4eEndeavours.Link.BlackMarket"),
 			endeavours["Gambling Den"] = game.i18n.localize("WFRP4eEndeavours.Link.Gambling"),
 			endeavours["Plant Identities"] = game.i18n.localize("WFRP4eEndeavours.Link.Identities"),
@@ -424,5 +426,5 @@ export function endeavour(actor, travel) {
             content: output, 
         }; 
         await ChatMessage.create(chatData, {}); 
-    } 
+    }
 }

@@ -9,9 +9,9 @@
       "flags": {}
     }
   ],
-  "version": "1.9.2",
+  "version": "2.0.0",
   "compatibility": {
-    "minimum": "13",
+    "minimum": "14",
     "verified": "14"
   },
   "esmodules": [
@@ -20,11 +20,11 @@
   ],
   "packs": [
     {
-      "label": "WFRP4e Endeavours Items",
-      "name": "wfrp4e-endeavours-items",
-      "type": "Item",
+      "label": "WFRP4e Endeavours Effects",
+      "name": "wfrp4e-endeavours-effects",
+      "type": "ActiveEffect",
       "system": "wfrp4e",
-      "path": "packs/wfrp4e-endeavours-items",
+      "path": "packs/wfrp4e-endeavours-effects",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -50,7 +50,7 @@
       "sorting": "a",
       "color": "#265625",
       "packs": [
-        "wfrp4e-endeavours-items",
+        "wfrp4e-endeavours-effects",
         "wfrp4e-endeavours-macro"
       ],
       "folders": []
@@ -81,7 +81,7 @@
   "media": [
     {
       "type": "setup",
-      "url": "https://user-images.githubusercontent.com/87753744/214647333-541fbd6a-45e0-4bed-bea3-7ab9f44e2f9f.jpg",
+      "url": "https://github.com/user-attachments/assets/349f477b-cc51-4709-8ab3-ebb221a332da",
       "loop": false,
       "flags": {}
     }
@@ -90,5 +90,5 @@
   "url": "https://github.com/Txus5012/WFRP4e-Endeavours",
   "readme": "https://github.com/Txus5012/WFRP4e-Endeavours#readme",
   "manifest": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/latest/download/module.json",
-  "download": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.9.2/wfrp4e-endeavours.zip"
+  "download": "https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v2.0.0/wfrp4e-endeavours.zip"
 }
