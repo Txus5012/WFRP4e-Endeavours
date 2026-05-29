@@ -45,6 +45,8 @@
     "WFRP4eEndeavours.Endeavour.BAEndeavour": "Between Adventures Endeavours",
     "WFRP4eEndeavours.Endeavour.TravelEndeavour": "Travel Endeavours",
     "WFRP4eEndeavours.Endeavour.Select": "Select",
+    "WFRP4eEndeavours.Endeavour.Journal": "Read Journal",
+    "WFRP4eEndeavours.Endeavour.NoJournal": "Journal Page not found",
     "WFRP4eEndeavours.Endeavour.None": "None",
     "WFRP4eEndeavours.Endeavour.Election": "I will do <b>{endeavour}",
     "WFRP4eEndeavours.Endeavour.Nothing": "I will do nothing in particular.",

@@ -7,6 +7,7 @@ export function endeavour(actor, travel) {
     let endeavourlabel;
 	let title;
 	let change;
+    let anchor ="";
     
     if ( !travel ) {
 		endeavourlabel = {
@@ -389,7 +390,24 @@ export function endeavour(actor, travel) {
             label: game.i18n.localize("WFRP4eEndeavours.Endeavour.Select"),
             callback: (_event, button) => {
               selectedEndeavour = "<h3>" + game.i18n.format("WFRP4eEndeavours.Endeavour.Election", {endeavour: new foundry.applications.ux.FormDataExtended(button.form).object.endeavour}) + "</b></h3>"
-              generateChat(actor, selectedEndeavour)
+                generateChat(actor, selectedEndeavour)
+              d.close()
+            }
+          },
+          {
+		    action : "journal",
+            icon: "fa-solid fa-book",
+            label: game.i18n.localize("WFRP4eEndeavours.Endeavour.Journal"),
+            callback: (_event, button) => {
+              selectedEndeavour = new foundry.applications.ux.FormDataExtended(button.form).object.endeavour
+              let journalPage = selectedEndeavour.substring(selectedEndeavour.indexOf("[")+1, selectedEndeavour.indexOf("]"))
+              if (journalPage.includes("#")) {
+                anchor = journalPage.substring(journalPage.indexOf("#")+1)
+                journalPage = journalPage.substring(0, journalPage.indexOf("#"))
+              }
+			  const page = fromUuidSync(journalPage);
+			  if (!page) { ui.notifications.notify(game.i18n.localize("WFRP4eEndeavours.Endeavour.NoJournal")) }
+			  else { page.parent.sheet.render(true, { pageId: page.id, anchor }) }
             }
           },
           {
@@ -398,6 +416,7 @@ export function endeavour(actor, travel) {
             label: change,
             callback: () => {
               endeavour(actor, !travel)
+              d.close()
             }
           },
 		  {
@@ -407,11 +426,13 @@ export function endeavour(actor, travel) {
             callback: () => {
               selectedEndeavour = "<h3>" + game.i18n.localize("WFRP4eEndeavours.Endeavour.Nothing") + "</h3>"
                 generateChat(actor, selectedEndeavour)
+              d.close()
             }
           }
         ],
 		position : { width: 800 },
 		options : { width: 500 },
+        form: {closeOnSubmit: false}
     })
 
     d.render(true);
