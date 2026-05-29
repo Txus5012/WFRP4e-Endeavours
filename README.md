@@ -19,9 +19,12 @@ Activate the module and import the macros into your world. You don't have to imp
 
 Select the token(s) that can make endeavours and execute the "WFRP4e Endeavours" macro. The player(s) will be prompted to select an endeavour:
 
-![Endeavours Dialog](https://github.com/user-attachments/assets/349f477b-cc51-4709-8ab3-ebb221a332da)
+<img width="797" height="163" alt="Endeavours" src="https://github.com/user-attachments/assets/cfdd7624-109c-4fd9-ab4a-e3c578263f66" />
+
 
 - **Select**: The character will do the selected endeavour.
+
+- **Read Journal**: Opens the journal page of the selected endeavour.
 
 - **Travel Endeavours/Between Adventures Endeavours**: Change between "Between adventures" and "Travel" endeavours.
 
