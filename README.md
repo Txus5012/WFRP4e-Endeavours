@@ -19,7 +19,7 @@ Activate the module and import the macros into your world. You don't have to imp
 
 Select the token(s) that can make endeavours and execute the "WFRP4e Endeavours" macro. The player(s) will be prompted to select an endeavour:
 
-<img width="797" height="163" alt="Endeavours" src="https://github.com/user-attachments/assets/cfdd7624-109c-4fd9-ab4a-e3c578263f66" />
+![Endeavours Dialog](https://github.com/user-attachments/assets/37e87723-0313-4ead-9d59-d55315c6644a)
 
 
 - **Select**: The character will do the selected endeavour.
