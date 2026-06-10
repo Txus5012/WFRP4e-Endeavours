@@ -10,7 +10,7 @@ Copy the following link and paste it in Add-On Modules => Install Module => Mani
 
 https://github.com/Txus5012/WFRP4e-Endeavours/releases/latest/download/module.json
 ![Installation](https://github.com/user-attachments/assets/9d34461a-9daf-43cb-988b-f8503abe05be)
-If you are still in v13, use this link instead: https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.9.2/module.json
+If you are still in v13, use this link to install an older version: https://github.com/Txus5012/WFRP4e-Endeavours/releases/download/v1.9.2/module.json
 
 ## Instructions
 Activate the module and import the macros into your world. You don't have to import the items.
